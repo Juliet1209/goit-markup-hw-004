@@ -116,6 +116,7 @@ color: #212121;
 
 
 .title-name{
+    Font: Raleway
 font-weight: 700;
 font-size: 26px;
 line-height: 1.19;
@@ -191,7 +192,10 @@ color:#2196F3;
 .btn-portfolio:focus
 {
     background-color: #2196F3;
-color: #ffffff;}
+    color: #ffffff;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.12)
+}
+
 
 .main-text{
  
@@ -214,7 +218,7 @@ max-width: 700px;
     line-height: 1.88;
     
     letter-spacing: 0.06em;
-    
+     
     color: #FFFFFF;
     background-color: #2196F3;
     text-align: center;
@@ -224,7 +228,8 @@ max-width: 700px;
 }
 .main-bcg {
     background-image: url(../images/Img.png) ;
-    linear-gradient: () 
+    background-size: cover;
+    max-width: 1600px;
     background-color: rgba(47, 48, 58, 0.4);
     text-align: center;
     padding:  200px 0;
@@ -258,6 +263,7 @@ font-size: 16px;
 line-height: 1.19;
 text-align: center;
 letter-spacing: 0.03em;
+margin-bottom: 20px;
 
 color: #757575;
 
@@ -354,7 +360,13 @@ color: #2196F3;}
 
 .current-btn{
 background-color: #2196F3;
-color: #FFFFFF;
+color: #FFFFFF;}
+
+.current-shadow:hover,
+.current-shadow:focus
+{ 
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
+}
 
 }
 .staff{
@@ -386,6 +398,14 @@ color: #FFFFFF;
 width: calc(100% / 3 - 30px);
 margin: 15px;
 }
+
+.projects-group:hover,
+.projects-group:focus{
+
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.12)
+}
+
+}
 .projects-text{
     padding: 20px 24px;
     border: 1px solid #ececec;
@@ -405,4 +425,17 @@ margin: 15px;
 }
 .section{
      padding: 94px 0;
+}
+
+.clients-bcg{
+
+
+}
+.clients-list{
+
+
+}
+
+.clients-name{
+    margin: 20px;
 }
