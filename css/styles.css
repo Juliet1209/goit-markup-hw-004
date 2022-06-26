@@ -47,7 +47,6 @@ margin-right: auto;
     
 }
 
-
 .wedo{
    
     font-weight: 700;
@@ -113,7 +112,19 @@ color: #212121;
 .wedo-pics{
     padding-bottom: 94px;
 }
+.wedo-icon{
+    justify-content: center;
+    align-items: center;
+    margin-left: 102px;
+    margin-bottom: 25px;
+    background-color: #F5F4FA;
 
+}
+
+.wedo-pic{
+    background-color: #F5F4FA;
+
+}
 
 .title-name{
     Font: Raleway
@@ -292,6 +303,28 @@ color: #757575;
     display: flex;
     justify-content: center;
 }
+.social-media-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    background-color: #ffffff;
+    border-radius: 50%;
+   
+    weight: 44px;
+    height: 44px;
+}
+
+.social-media-item:hover .social-media-link,
+.social-media-item:focus .social-media-link{
+fill:#FFFFFF;
+background-color: #2196F3;
+}
+
+.social-media-link{
+    fill: #AFB1B8;
+}
+.footer-social{fill: #fdfefe;}
 
 .projects {
 width: 370px;
@@ -436,12 +469,24 @@ margin: 15px;
 }
 .clients-list{
 display: flex;
-margin: 30px;
+
 
 }
 
+.clients-icon{
+
+}
 .clients-name{
+    
     margin: 20px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin-bottom: 50px;
+    color: #212121 
+    }
 }
 
 .footer-join{
