@@ -432,10 +432,28 @@ margin: 15px;
 
 }
 .clients-list{
-
+display: flex;
+margin: 30px;
 
 }
 
 .clients-name{
     margin: 20px;
+}
+
+.footer-join{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+
+}
+
+.footer-social{
+    display: flex;
 }
