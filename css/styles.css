@@ -474,7 +474,7 @@ display: flex;
 }
 
 .clients-icon{
-
+display:flex
 }
 .clients-name{
     
@@ -503,5 +503,5 @@ display: flex;
 }
 
 .footer-social{
-    display: flex;
+  display: flex;
 }
