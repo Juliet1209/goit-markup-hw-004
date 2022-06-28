@@ -475,6 +475,10 @@ display: flex;
 
 .clients-icon{
 display:flex;
+width: 170px;
+height: 92px;
+border: 1px solid #AFB1B8;
+margin: 20px;
 }
 .clients-name{
     
