@@ -106,7 +106,7 @@ color: #212121;
     width: 355px;
 }
 .wedo-pic{
-    margin: 15px;
+    margin: 15px; 
 }
 
 .wedo-pics{
@@ -304,6 +304,8 @@ color: #757575;
     justify-content: center;
 }
 .social-media-item{
+    weight: 44px;
+    height: 44px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -311,8 +313,7 @@ color: #757575;
     background-color: #ffffff;
     border-radius: 50%;
    
-    weight: 44px;
-    height: 44px;
+    
 }
 
 .social-media-item:hover .social-media-link,
@@ -470,11 +471,10 @@ margin: 15px;
 .clients-list{
 display: flex;
 
-
 }
 
 .clients-icon{
-display:flex
+display:flex;
 }
 .clients-name{
     
@@ -490,18 +490,27 @@ display:flex
 }
 
 .footer-join{
-    font-family: 'Roboto';
-    font-style: normal;
+  
     font-weight: 700;
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    
     color: #FFFFFF;
 
 }
 
 .footer-social{
   display: flex;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: #44454e ;
+text-transform: uppercase;
+color: #FFFFFF;
 }
+
+.footer-social:hover ,
+.footer-social:focus  {
+    fill: #FFFFFF;
+    background-color: #2196F3;
