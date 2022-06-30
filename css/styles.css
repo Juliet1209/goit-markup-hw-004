@@ -498,8 +498,12 @@ margin: 15px;
      padding: 94px 0;
 }
 
-
+.clients-link:hover,
+.clients-link:focus{
+    color: #2196F3;
+    border-color: #2196F3;
 }
+
 .clients-list{
 display: flex;
 
@@ -574,9 +578,7 @@ justify-content: center;
     fill: #FFFFFF;
     background-color: #2196F3;}
 
-.subscribe{
 
-    }
 .subscribe-title{
 margin-top: 12px;
 margin-bottom: 20px;
