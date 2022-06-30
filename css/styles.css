@@ -590,6 +590,7 @@ color: #ffffff;
 .social-media-icon{
 fill: #AFB1B8;
 }
-.sotial-media-link:focus .sotial-media-icon,
-.sotial-media-link:hover .sotial-media-icon {
+.social-media-link:focus .social-media-icon,
+.social-media-link:hover .social-media-icon {
     fill: #FFFFFF;
+   
