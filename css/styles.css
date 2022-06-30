@@ -586,9 +586,12 @@ border-radius: 50%;
 align-items: center;
 justify-content: center;
 color: #ffffff;
+background: rgba(255, 255, 255, 0.1);;
+
 }
 .social-media-icon{
 fill: #AFB1B8;
+
 }
 .social-media-link:focus .social-media-icon,
 .social-media-link:hover .social-media-icon {
