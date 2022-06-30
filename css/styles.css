@@ -36,8 +36,18 @@ padding-left: 15px;
 padding-right: 15px;
 margin-left: auto;
 margin-right: auto;
-
 }
+
+.footer-container{
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: baseline;
+}
+
 .header-container{
     display: flex;
     
@@ -154,7 +164,7 @@ margin-right: 93px;
   
     
     color: #2196F3;
-    margin-right: 200px;
+    
     margin-left: 0px;
 }
 
@@ -374,7 +384,7 @@ color: rgba(255, 255, 255, 0.6);
     }
 
     .footer-list{
-        display: flex;
+  margin-right: 70px;
     }
 .footer-bcg{
     background-color: #2F303A;
@@ -568,7 +578,16 @@ justify-content: center;
 
     }
 .subscribe-title{
+margin-top: 12px;
+margin-bottom: 20px;
 
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color:#fff;
+}
 }
 .social-media{
 display: flex;
