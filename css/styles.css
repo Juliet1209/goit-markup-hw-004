@@ -77,8 +77,10 @@ margin-right: auto;
     text-align: center;
     letter-spacing: 0.03em;
     margin-bottom: 50px;
-    color: #212121 margin-right: 20px;
+    color: #212121; 
+    margin-right: 20px;
 }
+
 .wedo-list{
     display:flex;
     margin-right: 50px;
@@ -91,8 +93,7 @@ font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-
-
+margin-top: 20px;
 
 margin-bottom: 5px;
 
@@ -115,9 +116,7 @@ color: #212121;
     margin: -15px;
     width: 355px;
 }
-.wedo-pic{
-    margin: 15px; 
-}
+
 
 .wedo-pics{
     padding-bottom: 94px;
@@ -127,15 +126,21 @@ color: #212121;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 102px;
-    margin-bottom: 25px;
     background-color: #F5F4FA;
 
 }
 
 .wedo-pic{
     background-color: #F5F4FA;
+height: 120px;
+display: flex;
+justify-content: center;
+align-items: center;
 
+}
+
+.wedo-pic:not(:last-child){
+margin-right: 30px;
 }
 
 .title-name{
@@ -144,10 +149,8 @@ font-weight: 700;
 font-size: 26px;
 line-height: 1.19;
 letter-spacing: 0.03em;
-
 margin-bottom: 20px;
 margin-top: 20px;
-
 color: #2196F3;
 margin-right: 93px;
 
@@ -161,8 +164,6 @@ margin-right: 93px;
     letter-spacing: 0.03em;
     margin-top: 20px;
     margin-bottom: 20px;
-  
-    
     color: #2196F3;
     
     margin-left: 0px;
@@ -201,6 +202,10 @@ align-items: center;
 }
 .header-options-text{
 margin-right: 50px;
+}
+
+.header-icon{
+    margin-right: 10px;
 }
 
 .header-options-item:hover,
@@ -327,6 +332,7 @@ color: #757575;
 .social-media-item{
     width: 44px;
     height: 44px;
+    margin-bottom: 10px;
 }
 
 .social-media-item:hover .social-media-link,
@@ -335,7 +341,7 @@ fill:#FFFFFF;
 background-color: #2196F3;
 }
 
-.social-media-link{
+.social-media-link:not(:last-child){
     fill: #AFB1B8;
     display: flex;
     width: 100%;
@@ -343,11 +349,10 @@ background-color: #2196F3;
     border-radius: 50%;
     align-items: center;
     justify-content: center;
-    
+    margin-right: 10px;
 }
-.social-media-icon{
-    fill: #AFB1B8;
-}
+
+
 .footer-social{
     fill: #fdfefe;
 
@@ -385,6 +390,7 @@ color: rgba(255, 255, 255, 0.6);
 
     .footer-list{
   margin-right: 70px;
+  
     }
 .footer-bcg{
     background-color: #2F303A;
@@ -476,7 +482,7 @@ margin: 15px;
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.12)
 }
 
-}
+
 .projects-text{
     padding: 20px 24px;
     border: 1px solid #ececec;
@@ -497,10 +503,17 @@ margin: 15px;
 .section{
      padding: 94px 0;
 }
+.clients-link{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
-.clients-link:hover,
-.clients-link:focus{
-    color: #2196F3;
+.clients-icon:hover,
+.clients-icon:focus{
+    fill: #2196F3;
     border-color: #2196F3;
 }
 
@@ -510,15 +523,17 @@ display: flex;
 }
 
 .clients-item {
-    width: 170px;
-    height: 92px;}
+    
+    height: 92px;
+    width: calc(100% / 6 - 30px);
+}
 
 .clients-icon{
 display:flex;
-width: 170px;
-height: 92px;
+width: 106px;
+height: 60px;
 border: 1px solid #AFB1B8;
-margin: 20px;
+
 fill: #E5E5E5;}
 
 .clients-icon-list {
@@ -532,7 +547,7 @@ fill: #E5E5E5;}
 
 .clients-name {
     
-    margin: 20px;
+
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
@@ -543,13 +558,16 @@ fill: #E5E5E5;}
     }
 .clients-list {
     display: flex;
-    justify-content: center;
+    justify-content: center;}
 
 .footer-join{
    margin-left: 70px;}
   
-}
 
+.clients-bcg{
+padding: 94px 0;
+
+}
 .footer .container{
   
   display: flex;
@@ -589,7 +607,7 @@ line-height: 1.14;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color:#fff;
-}
+
 }
 .social-media{
 display: flex;
@@ -598,6 +616,10 @@ justify-content: center;
 .social-media-item{
 width: 44px;
 height: 44px;
+margin-bottom: 10px;}
+
+.social-media-item:not(:last-child) { 
+    margin-bottom: 10px;
 }
 .social-media-link{
 display: flex;
@@ -607,14 +629,21 @@ border-radius: 50%;
 align-items: center;
 justify-content: center;
 color: #ffffff;
-background: rgba(255, 255, 255, 0.1);;
+background: rgba(255, 255, 255, 0.1);
+
 
 }
 .social-media-icon{
 fill: #AFB1B8;
+padding-right: 20px;}
+
+
+.social-media-icon-footer{
+fill: #ffffff;
 
 }
+
 .social-media-link:focus .social-media-icon,
 .social-media-link:hover .social-media-icon {
-    fill: #FFFFFF;
+    fill: #FFFFFF;}
    
