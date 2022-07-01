@@ -84,6 +84,7 @@ margin-right: auto;
 .wedo-list{
     display:flex;
     margin-right: 50px;
+    margin-left: 30px;
 }
 
 .wedo-head{
@@ -113,14 +114,15 @@ color: #212121;
 }
 
 .wedo-img{
-    margin: -15px;
+    margin-left: -15px;
     width: 355px;
+   margin-right: 30px;
 }
 
 
 .wedo-pics{
     padding-bottom: 94px;
-    
+  
 }
 .wedo-icon{
     display: flex;
@@ -137,6 +139,10 @@ display: flex;
 justify-content: center;
 align-items: center;
 
+}
+
+.wedowedo{
+    margin: 30px;
 }
 
 .wedo-pic:not(:last-child){
@@ -619,7 +625,7 @@ height: 44px;
 margin-bottom: 10px;}
 
 .social-media-item:not(:last-child) { 
-    margin-bottom: 10px;
+    margin-right: 10px;
 }
 .social-media-link{
 display: flex;
