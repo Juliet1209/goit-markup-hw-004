@@ -514,8 +514,8 @@ margin: 15px;
 
 
 
-.clients-link:hover, .clients-icon,
-.clients-link:focus, .clients-icon{
+.clients-link:hover,
+.clients-link:focus{
     border-color: #2196F3;
     fill: #2196F3;
 }
