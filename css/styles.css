@@ -514,11 +514,7 @@ margin: 15px;
 
 
 
-.clients-link:hover,
-.clients-link:focus{
-    border-color: #2196F3;
-    fill: #2196F3;
-}
+
 
 .clients-link{
     width: 100%;
@@ -548,6 +544,12 @@ height: 60px;
 
 
 fill: #E5E5E5;}
+
+.clients-link:hover,
+.clients-link:focus {
+    border-color: #2196F3;
+    fill: #2196F3;
+}
 
 .clients-icon-list {
     display: flex;
@@ -648,7 +650,7 @@ background: rgba(255, 255, 255, 0.1);
 }
 .social-media-icon{
 fill: #AFB1B8;
-padding-right: 20px;}
+}
 
 
 .social-media-icon-footer{
