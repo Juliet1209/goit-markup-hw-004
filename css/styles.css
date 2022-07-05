@@ -30,6 +30,7 @@ h1,h2,h3,p{margin: 0;}
 
 }
 
+
 .container{
 width: 1200px;
 padding-left: 15px;
@@ -180,6 +181,12 @@ margin-right: 93px;
  margin-left: auto;
 align-items: center;
 }
+
+.header-options:hover,
+.header-options:focus{
+    color: #2196F3;
+  
+}
     
 .header-options-item{
  font-weight: 500;
@@ -212,7 +219,7 @@ margin-right: 50px;
 
 .header-icon{
     margin-right: 10px;
-    fill: #757575;
+    
 }
 
 .header-options-item:hover,
